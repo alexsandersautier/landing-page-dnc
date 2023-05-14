@@ -8,11 +8,11 @@ function rolaParaDireita(){
     leonardo.style = 'display:none;'
     bruna.style = 'display:flex;'
     seta_direita.style = 'display:none;'
-    seta_esquerda.style = 'display:flex; margin-top:150%;'
+    seta_esquerda.style = 'display:flex; margin-top:90%; margin-right: 25px;'
 }
 function rolaParaEsquerda(){
     leonardo.style = 'display:flex;'
     bruna.style = 'display:none;'
-    seta_direita.style = 'display:flex;'
-    seta_esquerda.style = 'display:none; margin-top:150%;'
+    seta_direita.style = 'display:flex;margin-top:100%;'
+    seta_esquerda.style = 'display:none; '
 }

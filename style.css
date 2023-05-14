@@ -50,7 +50,8 @@
 }
 .carrosel{
     background-color: #247BA0;
-    padding: 50px;
+    padding: 50px 0px 50px 25px;
+
 }
 #titulo-carrosel{
     color: white;
@@ -58,24 +59,27 @@
     font-size: 25px;
 }
 #div-cards{
-    margin: 25px;
+    /* background-color: red; */
+
+    margin-top: 25px;
+    margin-left: 30px;
     display: grid;
     grid-auto-flow: column;
+    
 }
 .card{
-    margin-left: 50px;
+    border: 0px solid;
+    /* margin-left: 30px; */
 }
 #seta-esquerda{
     display: none;
-}
-#seta-direita{
-    margin-left: 25px;
 }
 #bruna{
     display: none;
 }
 .seta{
-    margin-top: 150%;
+    /* background-color: red; */
+    margin-top: 100%;
     cursor: pointer;
 }
 .seta:hover{
